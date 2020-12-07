@@ -1,0 +1,37 @@
+{
+  "name": "riltar",
+  "version": "1.0.0",
+  "description": "a marketplace platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "clear_jest": "jest --clearCache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeisterJustice/riltar.git"
+  },
+  "author": "Justice Eziefule and Quintin Makwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeisterJustice/riltar/issues"
+  },
+  "homepage": "https://github.com/MeisterJustice/riltar#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.0",
+    "aws-sdk": "^2.686.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "jimp": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "jest": "^26.0.1"
+  }
+}
