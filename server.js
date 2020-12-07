@@ -6,7 +6,7 @@ const fileupload = require("express-fileupload");
 const errorHandler = require("./middleware/error");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const { seed } = require("./seed");
+// const { seed } = require("./seed");
 // seed();
 
 // MONGO SETUP ==============================
